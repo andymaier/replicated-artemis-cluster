@@ -1,0 +1,23 @@
+2021-06-19 06:57:44,401 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:45960 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:57:52,270 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:45960 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:57:52,270 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:45960 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:57:52,627 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:57552 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:58:00,627 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:57552 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:58:00,627 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:57552 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:58:05,934 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:47842 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:58:10,803 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:47842 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 06:58:10,803 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /185.180.143.145:47842 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:03:52,710 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:41772 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:00,453 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:41772 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:00,454 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:41772 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:00,702 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:43276 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:08,453 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:43276 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:08,454 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:43276 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:24,707 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:46490 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:32,452 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:46490 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 08:04:32,453 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /106.75.22.49:46490 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-19 12:23:57,690 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /167.248.133.56:36552 has been detected: readAddress(..) failed: Connection reset by peer [code=GENERIC_EXCEPTION]
+2021-06-19 18:39:59,049 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session fc68d479-d11c-11eb-83d4-4e31a9c1d607
+2021-06-19 18:39:59,050 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session fc68d479-d11c-11eb-83d4-4e31a9c1d607
+2021-06-19 18:39:59,050 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session fc69229a-d11c-11eb-83d4-4e31a9c1d607
+2021-06-19 18:39:59,050 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session fc69229a-d11c-11eb-83d4-4e31a9c1d607

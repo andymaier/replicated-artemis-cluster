@@ -1,0 +1,14 @@
+2021-06-24 08:17:35,403 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session d4f4cf0d-d4b3-11eb-83d4-4e31a9c1d607
+2021-06-24 08:17:35,404 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session d4f4cf0d-d4b3-11eb-83d4-4e31a9c1d607
+2021-06-24 08:17:35,404 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session d4f51d2e-d4b3-11eb-83d4-4e31a9c1d607
+2021-06-24 08:17:35,404 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session d4f51d2e-d4b3-11eb-83d4-4e31a9c1d607
+2021-06-24 10:13:36,009 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 12c5718f-d4c4-11eb-83d4-4e31a9c1d607
+2021-06-24 10:13:36,009 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 12c5718f-d4c4-11eb-83d4-4e31a9c1d607
+2021-06-24 10:13:36,009 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 12c598a0-d4c4-11eb-83d4-4e31a9c1d607
+2021-06-24 10:13:36,009 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 12c598a0-d4c4-11eb-83d4-4e31a9c1d607
+2021-06-24 14:10:51,775 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /74.120.14.38:51288 has been detected: readAddress(..) failed: Connection reset by peer [code=GENERIC_EXCEPTION]
+2021-06-24 19:00:53,455 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-06-24 19:00:53,456 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-06-24 19:00:53,462 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-06-24 19:00:53,464 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-06-24 19:00:53,489 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [c0dd7981-d03b-11eb-8e32-0242b37fbbad] stopped, uptime 6 days 2 hours

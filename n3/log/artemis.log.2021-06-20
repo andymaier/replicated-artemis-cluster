@@ -1,0 +1,36 @@
+2021-06-20 02:26:08,143 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 12422dfb-d15e-11eb-83d4-4e31a9c1d607
+2021-06-20 02:26:08,144 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 12422dfb-d15e-11eb-83d4-4e31a9c1d607
+2021-06-20 02:26:08,145 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 12427c1c-d15e-11eb-83d4-4e31a9c1d607
+2021-06-20 02:26:08,145 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 12427c1c-d15e-11eb-83d4-4e31a9c1d607
+2021-06-20 07:45:49,916 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session c48451bd-d18a-11eb-83d4-4e31a9c1d607
+2021-06-20 07:45:49,916 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session c48451bd-d18a-11eb-83d4-4e31a9c1d607
+2021-06-20 07:45:49,917 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session c48478ce-d18a-11eb-83d4-4e31a9c1d607
+2021-06-20 07:45:49,917 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session c48478ce-d18a-11eb-83d4-4e31a9c1d607
+2021-06-20 08:45:40,862 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /194.61.25.4:61839 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-20 08:45:40,992 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /194.61.25.4:63331 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-20 08:46:42,663 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /194.61.25.4:61907 has been detected: AMQ229014: Did not receive data from /194.61.25.4:61907 within the 60,000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2021-06-20 08:52:57,143 WARN  [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+
+2021-06-20 08:52:57,144 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /194.61.25.4:63331 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-20 08:52:57,145 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /194.61.25.4:63331 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-20 08:53:02,039 WARN  [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+
+2021-06-20 08:53:02,039 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /194.61.25.4:61839 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-20 08:53:02,040 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /194.61.25.4:61839 to /85.10.201.90:5672; protocol CORE not found in map: [AMQP]
+2021-06-20 14:41:22,260 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /91.241.19.114:63968 has been detected: AMQ229014: Did not receive data from /91.241.19.114:63968 within the 60,000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2021-06-20 14:43:10,723 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /91.241.19.114:63111 to /85.10.201.90:61613; protocol CORE not found in map: [STOMP]
+2021-06-20 14:43:56,627 WARN  [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+
+2021-06-20 14:43:56,628 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /91.241.19.114:63111 to /85.10.201.90:61613; protocol CORE not found in map: [STOMP]
+2021-06-20 14:43:56,628 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /91.241.19.114:63111 to /85.10.201.90:61613; protocol CORE not found in map: [STOMP]
+2021-06-20 14:45:28,283 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /91.241.19.114:65066 has been detected: AMQ229014: Did not receive data from /91.241.19.114:65066 within the 60,000ms connection TTL. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+2021-06-20 14:45:54,428 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /91.241.19.114:64311 to /85.10.201.90:61613; protocol CORE not found in map: [STOMP]
+2021-06-20 14:46:01,424 WARN  [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+
+2021-06-20 14:46:01,424 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /91.241.19.114:64311 to /85.10.201.90:61613; protocol CORE not found in map: [STOMP]
+2021-06-20 14:46:01,425 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /91.241.19.114:64311 to /85.10.201.90:61613; protocol CORE not found in map: [STOMP]
+2021-06-20 15:43:44,916 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /162.142.125.55:36612 has been detected: readAddress(..) failed: Connection reset by peer [code=GENERIC_EXCEPTION]
+2021-06-20 21:08:26,624 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session db29c97f-d1fa-11eb-83d4-4e31a9c1d607
+2021-06-20 21:08:26,624 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session db29c97f-d1fa-11eb-83d4-4e31a9c1d607
+2021-06-20 21:08:26,624 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session db2a8cd0-d1fa-11eb-83d4-4e31a9c1d607
+2021-06-20 21:08:26,625 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session db2a8cd0-d1fa-11eb-83d4-4e31a9c1d607

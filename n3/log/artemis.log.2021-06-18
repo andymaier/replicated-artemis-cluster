@@ -1,0 +1,86 @@
+2021-06-18 15:50:33,302 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-18 15:50:33,346 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: backup Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-18 15:50:33,359 INFO  [org.apache.activemq.artemis.core.server] AMQ222162: Moving data directory /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/journal to /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/journal/oldreplica.1
+2021-06-18 15:50:33,385 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-06-18 15:50:33,441 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1,073,741,824
+2021-06-18 15:50:33,479 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-18 15:50:33,479 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-18 15:50:33,480 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-18 15:50:33,480 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-18 15:50:33,481 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-18 15:50:33,481 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-18 15:50:33,575 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-18 15:50:33,611 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-18 15:50:33,639 INFO  [org.apache.activemq.artemis.core.server] AMQ221109: Apache ActiveMQ Artemis Backup Server version 2.17.0 [null] started, waiting live to fail before it gets active
+2021-06-18 15:50:33,837 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-18 15:50:33,858 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-18 15:50:33,859 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-18 15:50:33,864 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-18 15:50:33,886 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-18 15:50:33,891 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/etc/jolokia-access.xml]
+2021-06-18 15:50:33,976 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8163
+2021-06-18 15:50:33,976 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8163/console/jolokia
+2021-06-18 15:50:33,977 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8163/console
+2021-06-18 15:51:37,342 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2021-06-18 15:51:38,235 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2021-06-18 15:51:41,343 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-18 15:55:45,600 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-18 16:00:08,223 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-18 16:19:43,612 INFO  [org.apache.activemq.artemis.core.server] AMQ221024: Backup server ActiveMQServerImpl::serverUUID=c0dd7981-d03b-11eb-8e32-0242b37fbbad is synchronized with live-server.
+2021-06-18 16:34:58,802 INFO  [org.apache.activemq.artemis.core.server] AMQ221066: Initiating quorum vote: LiveFailoverQuorumVote
+2021-06-18 16:34:58,802 INFO  [org.apache.activemq.artemis.core.server] AMQ221084: Requested 0 quorum votes
+2021-06-18 16:34:58,803 INFO  [org.apache.activemq.artemis.core.server] AMQ221083: ignoring quorum vote as max cluster size is 1.
+2021-06-18 16:34:58,803 INFO  [org.apache.activemq.artemis.core.server] AMQ221071: Failing over based on quorum vote results.
+2021-06-18 16:34:58,871 INFO  [org.apache.activemq.artemis.core.server] AMQ221037: ActiveMQServerImpl::serverUUID=c0dd7981-d03b-11eb-8e32-0242b37fbbad to become 'live'
+2021-06-18 16:34:59,097 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-18 16:34:59,098 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-18 16:34:59,104 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-18 16:34:59,104 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-18 16:34:59,302 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-18 16:34:59,347 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61618 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-18 16:34:59,354 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-18 16:34:59,404 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-18 16:34:59,408 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-18 16:34:59,410 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-18 16:34:59,898 INFO  [org.apache.activemq.artemis.core.server] AMQ221025: Replication: sending AIOSequentialFile{activemq-data-10.amq, opened=false, pendingClose=false, pendingCallbacks=org.apache.activemq.artemis.utils.AutomaticLatch@73940caa} (size=10,485,760) to replica.
+2021-06-18 16:35:00,093 INFO  [org.apache.activemq.artemis.core.server] AMQ221025: Replication: sending NIOSequentialFile /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/bindings/activemq-bindings-9.bindings (size=1,048,576) to replica.
+2021-06-18 16:35:00,106 INFO  [org.apache.activemq.artemis.core.server] AMQ221025: Replication: sending NIOSequentialFile /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/bindings/activemq-bindings-10.bindings (size=1,048,576) to replica.
+2021-06-18 16:35:00,116 INFO  [org.apache.activemq.artemis.core.server] AMQ221025: Replication: sending NIOSequentialFile /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/bindings/activemq-bindings-8.bindings (size=1,048,576) to replica.
+2021-06-18 16:35:00,662 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [c0dd7981-d03b-11eb-8e32-0242b37fbbad] stopped, uptime 44 minutes
+2021-06-18 16:35:00,662 INFO  [org.apache.activemq.artemis.core.server] AMQ221039: Restarting as Replicating backup server after live restart
+2021-06-18 16:35:00,663 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: backup Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-18 16:35:00,664 INFO  [org.apache.activemq.artemis.core.server] AMQ222162: Moving data directory /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/bindings to /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/bindings/oldreplica.1
+2021-06-18 16:35:00,665 INFO  [org.apache.activemq.artemis.core.server] AMQ222162: Moving data directory /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/journal to /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/journal/oldreplica.2
+2021-06-18 16:35:00,666 INFO  [org.apache.activemq.artemis.core.server] AMQ222162: Moving data directory /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/paging to /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n3/data/paging/oldreplica.1
+2021-06-18 16:35:00,667 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-06-18 16:35:00,669 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-18 16:35:00,670 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-18 16:35:00,670 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-18 16:35:00,670 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-18 16:35:00,671 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-18 16:35:00,671 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-18 16:35:01,172 INFO  [org.apache.activemq.artemis.core.server] AMQ221109: Apache ActiveMQ Artemis Backup Server version 2.17.0 [null] started, waiting live to fail before it gets active
+2021-06-18 16:35:01,635 INFO  [org.apache.activemq.artemis.core.server] AMQ221024: Backup server ActiveMQServerImpl::serverUUID=c0dd7981-d03b-11eb-8e32-0242b37fbbad is synchronized with live-server.
+2021-06-18 16:35:01,639 INFO  [org.apache.activemq.artemis.core.server] AMQ221031: backup announced
+2021-06-18 16:47:29,306 INFO  [org.apache.activemq.artemis.core.server] AMQ221066: Initiating quorum vote: LiveFailoverQuorumVote
+2021-06-18 16:47:29,307 INFO  [org.apache.activemq.artemis.core.server] AMQ221084: Requested 0 quorum votes
+2021-06-18 16:47:29,307 INFO  [org.apache.activemq.artemis.core.server] AMQ221083: ignoring quorum vote as max cluster size is 1.
+2021-06-18 16:47:29,308 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to localhost/127.0.0.1:61616 has been detected: AMQ219015: The connection was disconnected because of server shutdown [code=DISCONNECTED]
+2021-06-18 16:47:29,308 INFO  [org.apache.activemq.artemis.core.server] AMQ221071: Failing over based on quorum vote results.
+2021-06-18 16:47:29,308 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to localhost/127.0.0.1:61616 has been detected: AMQ219015: The connection was disconnected because of server shutdown [code=DISCONNECTED]
+2021-06-18 16:47:29,378 INFO  [org.apache.activemq.artemis.core.server] AMQ221037: ActiveMQServerImpl::serverUUID=c0dd7981-d03b-11eb-8e32-0242b37fbbad to become 'live'
+2021-06-18 16:47:29,381 WARN  [org.apache.activemq.artemis.core.client] AMQ212004: Failed to connect to server.
+2021-06-18 16:47:29,460 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-18 16:47:29,461 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-18 16:47:29,461 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-18 16:47:29,461 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-18 16:47:29,474 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-18 16:47:29,477 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61618 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-18 16:47:29,480 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-18 16:47:29,483 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-18 16:47:29,493 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-18 16:47:29,496 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-18 21:05:50,323 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 290a0276-d068-11eb-83d4-4e31a9c1d607
+2021-06-18 21:05:50,324 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 290a0276-d068-11eb-83d4-4e31a9c1d607
+2021-06-18 21:05:50,324 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 290a9eb7-d068-11eb-83d4-4e31a9c1d607
+2021-06-18 21:05:50,324 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 290a9eb7-d068-11eb-83d4-4e31a9c1d607

@@ -1,0 +1,27 @@
+2021-06-23 07:57:21,737 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session e01c5053-d3e7-11eb-83d4-4e31a9c1d607
+2021-06-23 07:57:21,739 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session e01c5053-d3e7-11eb-83d4-4e31a9c1d607
+2021-06-23 07:57:21,739 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session e01c9e74-d3e7-11eb-83d4-4e31a9c1d607
+2021-06-23 07:57:21,739 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session e01c9e74-d3e7-11eb-83d4-4e31a9c1d607
+2021-06-23 09:10:01,605 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:45628 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:09,478 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:45628 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:09,479 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:45628 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:10,435 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:55156 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:18,434 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:55156 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:18,435 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:55156 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:25,279 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:33438 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:30,153 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:33438 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:10:30,153 ERROR [org.apache.activemq.artemis.core.server] AMQ224096: Error setting up connection from /128.14.209.146:33438 to /85.10.201.90:1883; protocol CORE not found in map: [MQTT]
+2021-06-23 09:41:28,283 ERROR [org.apache.activemq.artemis.core.server] AMQ224088: Timeout (10 seconds) on acceptor "amqp" during protocol handshake with /89.248.169.12:45392 has occurred.
+2021-06-23 12:40:19,874 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 560b96f5-d40f-11eb-83d4-4e31a9c1d607
+2021-06-23 12:40:19,874 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 560b96f5-d40f-11eb-83d4-4e31a9c1d607
+2021-06-23 12:40:19,875 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 560be516-d40f-11eb-83d4-4e31a9c1d607
+2021-06-23 12:40:19,875 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 560be516-d40f-11eb-83d4-4e31a9c1d607
+2021-06-23 17:08:55,115 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session e3b5c3c9-d434-11eb-83d4-4e31a9c1d607
+2021-06-23 17:08:55,115 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session e3b5c3c9-d434-11eb-83d4-4e31a9c1d607
+2021-06-23 17:08:55,115 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session e3b5eada-d434-11eb-83d4-4e31a9c1d607
+2021-06-23 17:08:55,116 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session e3b5eada-d434-11eb-83d4-4e31a9c1d607
+2021-06-23 17:32:50,945 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /74.120.14.37:54618 has been detected: readAddress(..) failed: Connection reset by peer [code=GENERIC_EXCEPTION]
+2021-06-23 20:46:47,390 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 5d03189b-d453-11eb-83d4-4e31a9c1d607
+2021-06-23 20:46:47,391 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 5d03189b-d453-11eb-83d4-4e31a9c1d607
+2021-06-23 20:46:47,391 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 5d0366bc-d453-11eb-83d4-4e31a9c1d607
+2021-06-23 20:46:47,391 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 5d0366bc-d453-11eb-83d4-4e31a9c1d607

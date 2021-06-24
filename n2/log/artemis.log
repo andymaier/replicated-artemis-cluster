@@ -1,0 +1,80 @@
+2021-06-18 15:48:30,371 ERROR [org.apache.activemq.artemis.core.client] AMQ214019: Invalid configuration: org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Invalid content was found starting with element '{"urn:activemq:core":web}'. One of '{"urn:activemq:core":system-property-prefix, "urn:activemq:core":internal-naming-prefix, "urn:activemq:core":amqp-use-core-subscription-naming, "urn:activemq:core":resolve-protocols, "urn:activemq:core":scheduled-thread-pool-max-size, "urn:activemq:core":thread-pool-max-size, "urn:activemq:core":graceful-shutdown-enabled, "urn:activemq:core":graceful-shutdown-timeout, "urn:activemq:core":security-enabled, "urn:activemq:core":security-invalidation-interval, "urn:activemq:core":authentication-cache-size, "urn:activemq:core":authorization-cache-size, "urn:activemq:core":journal-lock-acquisition-timeout, "urn:activemq:core":wild-card-routing-enabled, "urn:activemq:core":management-address, "urn:activemq:core":management-notification-address, "urn:activemq:core":password-codec, "urn:activemq:core":mask-password, "urn:activemq:core":log-delegate-factory-class-name, "urn:activemq:core":jmx-management-enabled, "urn:activemq:core":jmx-domain, "urn:activemq:core":jmx-use-broker-name, "urn:activemq:core":message-counter-enabled, "urn:activemq:core":message-counter-sample-period, "urn:activemq:core":message-counter-max-day-history, "urn:activemq:core":connection-ttl-override, "urn:activemq:core":connection-ttl-check-interval, "urn:activemq:core":configuration-file-refresh-period, "urn:activemq:core":temporary-queue-namespace, "urn:activemq:core":async-connection-execution-enabled, "urn:activemq:core":transaction-timeout, "urn:activemq:core":transaction-timeout-scan-period, "urn:activemq:core":message-expiry-scan-period, "urn:activemq:core":message-expiry-thread-priority, "urn:activemq:core":address-queue-scan-period, "urn:activemq:core":id-cache-size, "urn:activemq:core":persist-id-cache, "urn:activemq:core":remoting-incoming-interceptors, "urn:activemq:core":remoting-outgoing-interceptors, "urn:activemq:core":persist-delivery-count-before-delivery, "urn:activemq:core":populate-validated-user, "urn:activemq:core":reject-empty-validated-user, "urn:activemq:core":broadcast-groups, "urn:activemq:core":discovery-groups, "urn:activemq:core":diverts, "urn:activemq:core":queues, "urn:activemq:core":bridges, "urn:activemq:core":federations, "urn:activemq:core":broker-connections, "urn:activemq:core":grouping-handler, "urn:activemq:core":create-bindings-dir, "urn:activemq:core":page-max-concurrent-io, "urn:activemq:core":read-whole-page, "urn:activemq:core":node-manager-lock-directory, "urn:activemq:core":create-journal-dir, "urn:activemq:core":journal-buffer-size, "urn:activemq:core":journal-sync-transactional, "urn:activemq:core":journal-sync-non-transactional, "urn:activemq:core":log-journal-write-rate, "urn:activemq:core":journal-compact-percentage, "urn:activemq:core":journal-compact-min-files, "urn:activemq:core":journal-file-open-timeout, "urn:activemq:core":server-dump-interval, "urn:activemq:core":global-max-size, "urn:activemq:core":memory-warning-threshold, "urn:activemq:core":memory-measure-interval, "urn:activemq:core":store, "urn:activemq:core":broker-plugins, "urn:activemq:core":metrics-plugin, "urn:activemq:core":metrics, "urn:activemq:core":resource-limit-settings, "urn:activemq:core":connector-services, "urn:activemq:core":network-check-list, "urn:activemq:core":network-check-URL-list, "urn:activemq:core":network-check-period, "urn:activemq:core":network-check-timeout, "urn:activemq:core":network-check-NIC, "urn:activemq:core":network-check-ping-command, "urn:activemq:core":network-check-ping6-command, "urn:activemq:core":wildcard-addresses}' is expected.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:511) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3587) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1971) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:829) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.DOMValidatorHelper.beginNode(DOMValidatorHelper.java:276) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.DOMValidatorHelper.validate(DOMValidatorHelper.java:243) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.DOMValidatorHelper.validate(DOMValidatorHelper.java:189) [java.xml:]
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:108) [java.xml:]
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124) [java.xml:]
+	at org.apache.activemq.artemis.utils.XMLUtil.validate(XMLUtil.java:361) [artemis-core-client-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.config.FileDeploymentManager.readConfiguration(FileDeploymentManager.java:80) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.integration.FileBroker.createComponents(FileBroker.java:118) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.commands.Run.execute(Run.java:112) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.Artemis.internalExecute(Artemis.java:154) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.Artemis.execute(Artemis.java:102) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.Artemis.execute(Artemis.java:129) [artemis-cli-2.17.0.jar:2.17.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [java.base:]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) [java.base:]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [java.base:]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) [java.base:]
+	at org.apache.activemq.artemis.boot.Artemis.execute(Artemis.java:134) [artemis-boot.jar:2.17.0]
+	at org.apache.activemq.artemis.boot.Artemis.main(Artemis.java:50) [artemis-boot.jar:2.17.0]
+
+2021-06-18 15:50:03,796 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-18 15:50:03,842 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: backup Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-18 15:50:03,855 INFO  [org.apache.activemq.artemis.core.server] AMQ222162: Moving data directory /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n2/data/journal to /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n2/data/journal/oldreplica.1
+2021-06-18 15:50:03,884 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-06-18 15:50:03,941 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1,073,741,824
+2021-06-18 15:50:03,981 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-18 15:50:03,982 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-18 15:50:03,983 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-18 15:50:03,983 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-18 15:50:03,983 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-18 15:50:03,984 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-18 15:50:04,078 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-18 15:50:04,123 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-18 15:50:04,160 INFO  [org.apache.activemq.artemis.core.server] AMQ221109: Apache ActiveMQ Artemis Backup Server version 2.17.0 [null] started, waiting live to fail before it gets active
+2021-06-18 15:50:04,366 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-18 15:50:04,393 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-18 15:50:04,395 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-18 15:50:04,402 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-18 15:50:04,421 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-18 15:50:04,428 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/home/andreas/development/predic8_artemis/kurs/replicated-cluster/n2/etc/jolokia-access.xml]
+2021-06-18 15:50:04,514 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8162
+2021-06-18 15:50:04,514 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8162/console/jolokia
+2021-06-18 15:50:04,515 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8162/console
+2021-06-18 15:50:04,844 INFO  [org.apache.activemq.artemis.core.server] AMQ221024: Backup server ActiveMQServerImpl::serverUUID=c0dd7981-d03b-11eb-8e32-0242b37fbbad is synchronized with live-server.
+2021-06-18 15:50:04,882 INFO  [org.apache.activemq.artemis.core.server] AMQ221031: backup announced
+2021-06-18 15:55:09,690 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2021-06-18 15:55:10,590 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2021-06-18 15:55:13,538 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-18 15:55:59,589 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-18 15:58:57,166 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-18 15:59:09,551 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-18 16:19:42,528 INFO  [org.apache.activemq.artemis.core.server] AMQ221066: Initiating quorum vote: LiveFailoverQuorumVote
+2021-06-18 16:19:42,529 INFO  [org.apache.activemq.artemis.core.server] AMQ221084: Requested 0 quorum votes
+2021-06-18 16:19:42,529 INFO  [org.apache.activemq.artemis.core.server] AMQ221083: ignoring quorum vote as max cluster size is 1.
+2021-06-18 16:19:42,529 INFO  [org.apache.activemq.artemis.core.server] AMQ221071: Failing over based on quorum vote results.
+2021-06-18 16:19:42,611 INFO  [org.apache.activemq.artemis.core.server] AMQ221037: ActiveMQServerImpl::serverUUID=c0dd7981-d03b-11eb-8e32-0242b37fbbad to become 'live'
+2021-06-18 16:19:42,615 WARN  [org.apache.activemq.artemis.core.client] AMQ212004: Failed to connect to server.
+2021-06-18 16:19:42,768 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-18 16:19:42,769 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-18 16:19:42,778 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-18 16:19:42,778 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-18 16:19:42,975 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-18 16:19:43,008 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61617 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-18 16:19:43,016 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-18 16:19:43,056 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-18 16:19:43,061 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-18 16:19:43,077 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-18 16:19:43,133 INFO  [org.apache.activemq.artemis.core.server] AMQ221025: Replication: sending AIOSequentialFile{activemq-data-3.amq, opened=false, pendingClose=false, pendingCallbacks=org.apache.activemq.artemis.utils.AutomaticLatch@2d91b95d} (size=10,485,760) to replica.
+2021-06-18 16:19:43,325 INFO  [org.apache.activemq.artemis.core.server] AMQ221025: Replication: sending NIOSequentialFile /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n2/data/bindings/activemq-bindings-3.bindings (size=1,048,576) to replica.
+2021-06-18 16:19:43,338 INFO  [org.apache.activemq.artemis.core.server] AMQ221025: Replication: sending NIOSequentialFile /home/andreas/development/predic8_artemis/kurs/replicated-cluster/n2/data/bindings/activemq-bindings-2.bindings (size=1,048,576) to replica.
+2021-06-18 16:21:43,173 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin

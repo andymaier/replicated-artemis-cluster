@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.activemq.activemq-branding
+Built-By: clebertsuconic
+Bnd-LastModified: 1613064019947
+ActiveMQ-Version: 2.17.0(130,129,128,127,126,125,124,123,122)
+Bundle-DocURL: https://www.apache.org/
+Import-Package: javax.management;resolution:=optional,org.slf4j;resoluti
+ on:=optional;version="[1.7,2)",javax.servlet
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Bundle-Name: ActiveMQ Artemis HawtIO Branding
+Web-ContextPath: /activemq-branding
+Build-Jdk-Spec: 1.8
+Bundle-Description: Artemis branding plugin module for the HawtIO web co
+ nsole
+Implementation-Title: HawtIO
+Embed-Directory: WEB-INF/lib
+Implementation-Version: 2.17.0
+Bundle-ManifestVersion: 2
+Embed-Dependency: *;scope=compile|runtime
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-3.0.0.201509101326
+Embedded-Artifacts: WEB-INF/lib/hawtio-plugin-mbean-2.11.0.jar;g="io.haw
+ t";a="hawtio-plugin-mbean";v="2.11.0"
+Bundle-Version: 2.17.0
+Bundle-ClassPath: .,WEB-INF/classes,WEB-INF/lib/hawtio-plugin-mbean-2.11
+ .0.jar
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_261
+Webapp-Context: /activemq-branding
+

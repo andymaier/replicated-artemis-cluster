@@ -1,0 +1,13 @@
+2021-06-21 06:18:01,963 WARN  [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+
+2021-06-21 09:04:44,244 WARN  [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.: io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+
+2021-06-21 11:14:27,811 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 142d1c21-d271-11eb-83d4-4e31a9c1d607
+2021-06-21 11:14:27,811 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 142d1c21-d271-11eb-83d4-4e31a9c1d607
+2021-06-21 11:14:27,811 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 142d6a42-d271-11eb-83d4-4e31a9c1d607
+2021-06-21 11:14:27,811 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 142d6a42-d271-11eb-83d4-4e31a9c1d607
+2021-06-21 12:09:38,828 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /74.120.14.55:55034 has been detected: readAddress(..) failed: Connection reset by peer [code=GENERIC_EXCEPTION]
+2021-06-21 15:25:57,917 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 2d9c1b23-d294-11eb-83d4-4e31a9c1d607
+2021-06-21 15:25:57,917 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 2d9c1b23-d294-11eb-83d4-4e31a9c1d607
+2021-06-21 15:25:57,917 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 2d9c6944-d294-11eb-83d4-4e31a9c1d607
+2021-06-21 15:25:57,918 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 2d9c6944-d294-11eb-83d4-4e31a9c1d607
